@@ -4,7 +4,6 @@ export default defineConfig({
   title: "Neru Wiki",
   description: "Википедия города Нерюнгри",
   lang: 'ru-RU',
-  base: '/main/',
   themeConfig: {
     nav: [
       { text: 'Главная', link: '/' },
