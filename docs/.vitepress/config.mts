@@ -9,17 +9,11 @@ export default defineConfig({
     nav: [
       { text: 'Главная', link: '/' },
       { text: 'Улицы', link: '/streets/' },
+      { text: 'Кварталы', link: '/sections/' },
+      { text: 'Проекты', link: '/patterns/' },
     ],
     search: {
       provider: 'local'
     },
-    sidebar: [
-      {
-        text: 'Чурапчинская',
-        items: [
-          { text: 'Чурапчинская 1', link: '/01010' },
-        ]
-      }
-    ]
   }
 })
