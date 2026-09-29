@@ -16,7 +16,6 @@ export default defineConfig({
       {
         text: 'Чурапчинская',
         items: [
-          { text: 'Чурапчинская 1', link: '/01010' },
         ]
       }
     ]
