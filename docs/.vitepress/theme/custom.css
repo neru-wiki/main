@@ -181,7 +181,7 @@ body {
   max-width: 95% !important;
   padding: 0 !important;
 }
-
+ 
 /* Глобально: padding и border входят в width */
 .VPDoc .container,
 .VPDoc .container *,
