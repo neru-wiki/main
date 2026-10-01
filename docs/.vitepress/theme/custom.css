@@ -162,3 +162,12 @@ body {
 .aside-curtain {
   display: none !important;
 }
+
+/* Убираем пустую колонку aside */
+.VPDoc .aside {
+  display: none !important;
+}
+/* Запретить точки */
+ul li::marker {
+  content: '' !important;
+}
