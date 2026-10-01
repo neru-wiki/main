@@ -28,7 +28,7 @@ body {
   border-radius: 16px;
   padding: 32px;
   margin: 24px auto;
-  max-width: 1100px;
+  max-width: 1500px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   color: #000;
   overflow: auto; /* растягивается под таблицу */
@@ -73,7 +73,7 @@ body {
   height: auto;
 }
 
-/* ===== ОГЛАВЛЕНИЕ ===== */
+/* ===== ОГЛАВЛЕНИЕ [[toc]] ===== */
 
 .VPDoc .container .toc {
   background: rgba(255, 255, 255, 0.5);
@@ -81,12 +81,21 @@ body {
   padding: 16px 20px;
   margin: 20px 0;
   border-left: 3px solid rgba(100, 150, 255, 0.6);
-  clear: both; /* чтобы не наезжало на инфобокс */
+  clear: both;
 }
 
 .dark .VPDoc .container .toc {
   background: rgba(20, 30, 60, 0.5);
   border-left: 3px solid rgba(100, 150, 255, 0.8);
+}
+
+.VPDoc .container .toc::before {
+  content: 'Содержание';
+  display: block;
+  font-weight: bold;
+  font-size: 16px;
+  margin-bottom: 12px;
+  color: inherit;
 }
 
 .toc ul {
@@ -97,6 +106,12 @@ body {
 
 .toc ul ul {
   padding-left: 20px;
+}
+
+.toc li::before {
+  content: '— ';
+  color: rgba(100, 150, 255, 0.8);
+  margin-right: 4px;
 }
 
 .toc a {
