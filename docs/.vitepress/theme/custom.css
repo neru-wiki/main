@@ -31,7 +31,8 @@ body {
   max-width: 1500px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   color: #000;
-  overflow: auto;
+  overflow: hidden;
+  box-sizing: border-box;
 }
 
 /* ===== СТЕКЛЯННАЯ РАМКА — ТЁМНАЯ ТЕМА ===== */
@@ -49,6 +50,7 @@ body {
   width: 33%;
   margin-left: 24px;
   margin-bottom: 16px;
+  box-sizing: border-box;
 }
 
 /* ===== ТАБЛИЦА ВНУТРИ ИНФОБОКСА ===== */
@@ -60,11 +62,13 @@ body {
   padding: 12px;
   word-wrap: break-word;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
 }
 
 .dark .infobox table {
   background: rgba(20, 30, 60, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.15);
+  box-sizing: border-box;
 }
 
 /* ===== ГАЛЕРЕЯ ===== */
@@ -168,7 +172,7 @@ body {
   display: none !important;
 }
 
-/* Растягиваем контент на всю доступную ширину */
+/* Растягиваем контент */
 .VPDoc .content-container {
   max-width: 90% !important;
 }
