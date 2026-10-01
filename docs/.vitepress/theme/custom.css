@@ -1,10 +1,21 @@
 /* ===== ФОН САЙТА ===== */
 
-body {
-  background-image: url('/main/base.jpg');
-  background-size: cover;
-  background-attachment: fixed;
-  background-position: center;
+html {
+  background-image: url('/main/base.jpg') !important;
+  background-size: cover !important;
+  background-position: center center !important;
+  background-attachment: fixed !important;
+  background-repeat: no-repeat !important;
+}
+
+body,
+#app,
+.VPApp,
+.VPLayout,
+.Layout,
+.VPContent,
+.VPDoc {
+  background: transparent !important;
 }
 
 /* Затемнение фона в тёмной теме */
@@ -19,7 +30,7 @@ body {
   z-index: -1;
 }
 
-/* ===== СТЕКЛЯННАЯ РАМКА — СВЕТЛАЯ ТЕМА ===== */
+/* ===== СТЕКЛЯННАЯ РАМКА ===== */
 
 .VPDoc .container {
   background: rgba(200, 230, 255, 0.7);
@@ -35,47 +46,45 @@ body {
   overflow: hidden;
 }
 
-/* ===== СТЕКЛЯННАЯ РАМКА — ТЁМНАЯ ТЕМА ===== */
-
 .dark .VPDoc .container {
   background: rgba(10, 25, 70, 0.75);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
   color: #fff;
 }
 
-/* ===== ДВУХКОЛОНОЧНАЯ РАСКЛАДКА СТАТЬИ ===== */
+/* ===== ТАБЛИЦЫ ===== */
 
-.article-layout {
-  display: flex;
-  gap: 24px;
-  align-items: flex-start;
-}
-
-.article-text {
-  flex: 1;
-  min-width: 0;
-}
-
-/* ===== ИНФОБОКС ===== */
-
-.infobox {
-  flex: 0 0 33%;
-  box-sizing: border-box;
-}
-
-.infobox table {
-  width: 100%;
+.vp-doc table {
+  min-width: 200px;
+  max-width: 100%;
+  width: 42%;
+  table-layout: fixed;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   padding: 12px;
   border: 1px solid rgba(0, 0, 0, 0.15);
-  word-wrap: break-word;
+  margin: 16px 0;
   box-sizing: border-box;
 }
 
-.dark .infobox table {
+.dark .vp-doc table {
   background: rgba(20, 30, 60, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.vp-doc table td,
+.vp-doc table th {
+  word-wrap: break-word !important;
+  overflow-wrap: break-word !important;
+  white-space: normal !important;
+  word-break: keep-all !important;
+}
+
+/* Обёртка .infobox — просто прозрачная, без float */
+.infobox {
+  width: 42%;
+  margin: 16px 0 16px auto;
+  box-sizing: border-box;
 }
 
 /* ===== ГАЛЕРЕЯ ===== */
@@ -148,18 +157,13 @@ body {
   display: none !important;
 }
 
-/* ===== УБИРАЕМ ПУСТУЮ КОЛОНКУ ASIDE ===== */
-
 .VPDoc .aside {
   display: none !important;
 }
 
-/* ===== УБИРАЕМ "ШТОРКУ" ===== */
-
 .aside-curtain,
 .VPDocCurtain,
 .VPDocAsideCurtain,
-.VPNavBarCurtain,
 [class*="curtain"] {
   display: none !important;
 }
@@ -178,9 +182,7 @@ body {
 /* ===== ГЛОБАЛЬНЫЙ BOX-SIZING ===== */
 
 .VPDoc .container,
-.VPDoc .container *,
-.infobox,
-.infobox table {
+.VPDoc .container * {
   box-sizing: border-box !important;
 }
 
@@ -199,16 +201,9 @@ ul li::marker {
     border-radius: 12px;
   }
 
-  .article-layout {
-    flex-direction: column;
-  }
-
+  .vp-doc table,
   .infobox {
-    flex: none;
-    width: 100%;
-  }
-
-  .infobox table {
+    width: 100% !important;
     font-size: 14px;
   }
 }
