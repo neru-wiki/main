@@ -152,3 +152,38 @@ body {
 .aside-curtain {
   display: none !important;
 }
+
+/* ===== РАСШИРЕНИЕ КОНТЕНТА ===== */
+
+@media (min-width: 960px) {
+  .VPDoc .container {
+    max-width: 100%;
+    margin: 24px;
+  }
+
+  .VPDoc .content-container {
+    max-width: 100% !important;
+  }
+
+  .VPDoc .content {
+    max-width: 100% !important;
+  }
+
+  .VPDoc .aside {
+    display: none !important;
+  }
+}
+
+/* Убираем точки из оглавления */
+.toc ul {
+  list-style: none !important;
+  padding-left: 0 !important;
+}
+
+.toc li {
+  list-style: none !important;
+}
+
+.toc li::marker {
+  content: '' !important;
+}
