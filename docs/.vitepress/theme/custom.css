@@ -167,6 +167,21 @@ body {
 .VPDoc .aside {
   display: none !important;
 }
+
+/* Растягиваем контент на всю доступную ширину */
+.VPDoc .content-container {
+  max-width: 100% !important;
+}
+
+.VPDoc .content {
+  max-width: 100% !important;
+  padding: 0 !important;
+}
+
+.VPDoc .container {
+  max-width: 100% !important;
+  margin: 24px !important;
+}
 /* Запретить точки */
 ul li::marker {
   content: '' !important;
