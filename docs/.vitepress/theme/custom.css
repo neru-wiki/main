@@ -1,0 +1,62 @@
+/* ===== ФОН САЙТА ===== */
+
+body {
+  background-image: url('/main/.vitepress/theme/base.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+
+/* Затемнение фона в тёмной теме, чтобы текст был читаемым */
+.dark body::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: -1;
+}
+
+/* ===== СТЕКЛЯННАЯ РАМКА — СВЕТЛАЯ ТЕМА ===== */
+
+.VPDoc .container {
+  background: rgba(200, 230, 255, 0.7);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 16px;
+  padding: 32px;
+  margin: 24px auto;
+  max-width: 1100px;
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  color: #000;
+}
+
+/* ===== СТЕКЛЯННАЯ РАМКА — ТЁМНАЯ ТЕМА ===== */
+
+.dark .VPDoc .container {
+  background: rgba(10, 25, 70, 0.75);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  color: #fff;
+}
+
+/* ===== ТАБЛИЦЫ-ИНФОБОКСЫ ===== */
+
+.VPDoc .container table {
+  background: rgba(255, 255, 255, 0.6);
+  border-radius: 8px;
+  padding: 12px;
+}
+
+.dark .VPDoc .container table {
+  background: rgba(20, 30, 60, 0.6);
+}
+
+/* ===== ГАЛЕРЕЯ (сетка для фото) ===== */
+
+.VPDoc .container img {
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
