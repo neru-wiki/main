@@ -59,10 +59,12 @@ body {
   border-radius: 8px;
   padding: 12px;
   word-wrap: break-word;
+  border: 1px solid rgba(0, 0, 0, 0.15);
 }
 
 .dark .infobox table {
   background: rgba(20, 30, 60, 0.6);
+  border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 /* ===== ГАЛЕРЕЯ (сетка для фото) ===== */
@@ -151,27 +153,6 @@ body {
 /* ===== КУСОК БЕЛОГО ГОВНА === */
 .aside-curtain {
   display: none !important;
-}
-
-/* ===== РАСШИРЕНИЕ КОНТЕНТА ===== */
-
-@media (min-width: 960px) {
-  .VPDoc .container {
-    max-width: 100%;
-    margin: 24px;
-  }
-
-  .VPDoc .content-container {
-    max-width: 100% !important;
-  }
-
-  .VPDoc .content {
-    max-width: 100% !important;
-  }
-
-  .VPDoc .aside {
-    display: none !important;
-  }
 }
 
 /* Убираем точки из оглавления */
