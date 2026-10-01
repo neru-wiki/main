@@ -31,8 +31,8 @@ body {
   max-width: 1500px;
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
   color: #000;
-  overflow: hidden;
   box-sizing: border-box;
+  overflow: hidden;
 }
 
 /* ===== СТЕКЛЯННАЯ РАМКА — ТЁМНАЯ ТЕМА ===== */
@@ -43,32 +43,39 @@ body {
   color: #fff;
 }
 
-/* ===== ОБЁРТКА ДЛЯ ИНФОБОКСА ===== */
+/* ===== ДВУХКОЛОНОЧНАЯ РАСКЛАДКА СТАТЬИ ===== */
 
-.infobox {
-  float: right;
-  width: 33%;
-  margin-left: 24px;
-  margin-bottom: 16px;
-  box-sizing: border-box;
+.article-layout {
+  display: flex;
+  gap: 24px;
+  align-items: flex-start;
 }
 
-/* ===== ТАБЛИЦА ВНУТРИ ИНФОБОКСА ===== */
+.article-text {
+  flex: 1;
+  min-width: 0;
+}
+
+/* ===== ИНФОБОКС ===== */
+
+.infobox {
+  flex: 0 0 33%;
+  box-sizing: border-box;
+}
 
 .infobox table {
   width: 100%;
   background: rgba(255, 255, 255, 0.6);
   border-radius: 8px;
   padding: 12px;
-  word-wrap: break-word;
   border: 1px solid rgba(0, 0, 0, 0.15);
+  word-wrap: break-word;
   box-sizing: border-box;
 }
 
 .dark .infobox table {
   background: rgba(20, 30, 60, 0.6);
   border: 1px solid rgba(255, 255, 255, 0.15);
-  box-sizing: border-box;
 }
 
 /* ===== ГАЛЕРЕЯ ===== */
@@ -87,7 +94,6 @@ body {
   padding: 16px 20px;
   margin: 20px 0;
   border-left: 3px solid rgba(100, 150, 255, 0.6);
-  clear: both;
 }
 
 .dark .VPDoc .container .toc {
@@ -142,37 +148,24 @@ body {
   display: none !important;
 }
 
-/* ===== МОБИЛЬНАЯ ВЕРСИЯ ===== */
+/* ===== УБИРАЕМ ПУСТУЮ КОЛОНКУ ASIDE ===== */
 
-@media (max-width: 768px) {
-  .VPDoc .container {
-    padding: 16px;
-    margin: 12px;
-    border-radius: 12px;
-  }
-
-  .infobox {
-    float: none !important;
-    width: 100% !important;
-    margin: 16px 0 !important;
-  }
-
-  .infobox table {
-    font-size: 14px;
-  }
-}
-
-/* ===== КУСОК БЕЛОГО ГОВНА ===== */
-.aside-curtain {
-  display: none !important;
-}
-
-/* Убираем пустую колонку aside */
 .VPDoc .aside {
   display: none !important;
 }
 
-/* Растягиваем контент */
+/* ===== УБИРАЕМ "ШТОРКУ" ===== */
+
+.aside-curtain,
+.VPDocCurtain,
+.VPDocAsideCurtain,
+.VPNavBarCurtain,
+[class*="curtain"] {
+  display: none !important;
+}
+
+/* ===== РАСТЯГИВАЕМ КОНТЕНТ ===== */
+
 .VPDoc .content-container {
   max-width: 90% !important;
 }
@@ -182,7 +175,8 @@ body {
   padding: 0 !important;
 }
 
-/* Глобально: padding и border входят в width */
+/* ===== ГЛОБАЛЬНЫЙ BOX-SIZING ===== */
+
 .VPDoc .container,
 .VPDoc .container *,
 .infobox,
@@ -190,7 +184,31 @@ body {
   box-sizing: border-box !important;
 }
 
-/* Запретить точки */
+/* ===== УБИРАЕМ ТОЧКИ У ВСЕХ СПИСКОВ ===== */
+
 ul li::marker {
   content: '' !important;
+}
+
+/* ===== МОБИЛЬНАЯ ВЕРСИЯ ===== */
+
+@media (max-width: 768px) {
+  .VPDoc .container {
+    padding: 16px;
+    margin: 12px;
+    border-radius: 12px;
+  }
+
+  .article-layout {
+    flex-direction: column;
+  }
+
+  .infobox {
+    flex: none;
+    width: 100%;
+  }
+
+  .infobox table {
+    font-size: 14px;
+  }
 }
