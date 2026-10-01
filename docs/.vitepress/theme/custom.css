@@ -46,7 +46,7 @@ body {
 
 .infobox {
   float: right;
-  width: 40%;
+  width: 33%;
   margin-left: 24px;
   margin-bottom: 16px;
 }
@@ -170,12 +170,20 @@ body {
 
 /* Растягиваем контент на всю доступную ширину */
 .VPDoc .content-container {
-  max-width: 100% !important;
+  max-width: 90% !important;
 }
 
 .VPDoc .content {
-  max-width: 100% !important;
+  max-width: 90% !important;
   padding: 0 !important;
+}
+
+/* Глобально: padding и border входят в width */
+.VPDoc .container,
+.VPDoc .container *,
+.infobox,
+.infobox table {
+  box-sizing: border-box !important;
 }
 
 /* Запретить точки */
