@@ -60,3 +60,8 @@ body {
   max-width: 100%;
   height: auto;
 }
+
+/* ===== КУСОК БЕЛОГО ГОВНА === */
+.aside-curtain {
+  display: none !important;
+}
