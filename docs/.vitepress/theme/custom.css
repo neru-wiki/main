@@ -146,19 +146,19 @@ body {
 
 @media (max-width: 768px) {
   .VPDoc .container {
-    padding: 16px;
-    margin: 12px;
-    border-radius: 12px;
+    padding: 14px;
+    margin: 10px;
+    border-radius: 10px;
   }
 
   .infobox {
     float: none !important;
     width: 100% !important;
-    margin: 16px 0 !important;
+    margin: 14px 0 !important;
   }
 
   .infobox table {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
