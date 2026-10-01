@@ -4,7 +4,7 @@ body {
   background-image: url('/main/.vitepress/theme/base.jpg');
   background-size: cover;
   background-attachment: fixed;
-  background-position: center;
+  background-position: center; 
 }
 
 /* Затемнение фона в тёмной теме, чтобы текст был читаемым */
