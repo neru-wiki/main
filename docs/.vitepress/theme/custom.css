@@ -1,7 +1,7 @@
 /* ===== ФОН САЙТА ===== */
 
 body {
-  background-image: url('/main/public/base.jpg');
+  background-image: url('/main/base.jpg');
   background-size: cover;
   background-attachment: fixed;
   background-position: center; 
