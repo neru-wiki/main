@@ -22,7 +22,7 @@ body {
 /* ===== СТЕКЛЯННАЯ РАМКА — СВЕТЛАЯ ТЕМА ===== */
 
 .VPDoc .container {
-  background: rgba(200, 230, 255, 0.7);
+  background: rgba(200, 232, 255, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
@@ -38,9 +38,35 @@ body {
 /* ===== СТЕКЛЯННАЯ РАМКА — ТЁМНАЯ ТЕМА ===== */
 
 .dark .VPDoc .container {
-  background: rgba(10, 25, 70, 0.75);
+  background: rgba(8, 24, 72, 0.7);
   box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
   color: #fff;
+}
+
+/* ===== ЗАГОЛОВОК СТАТЬИ ПО ЦЕНТРУ ===== */
+
+.vp-doc h1 {
+  text-align: center;
+}
+
+/* ===== НЕОНОВОЕ СВЕЧЕНИЕ ПОД ЗАГОЛОВКОМ ===== */
+
+/* Красное свечение — снесённые дома */
+.vp-doc h1.destroyed {
+  text-shadow:
+    0 0 8px #ff2222,
+    0 0 16px #ff2222,
+    0 0 32px #ff0000,
+    0 0 48px #ff0000;
+}
+
+/* Зелёное свечение — сохранившиеся дома */
+.vp-doc h1.alive {
+  text-shadow:
+    0 0 8px #22ff22,
+    0 0 16px #22ff22,
+    0 0 32px #00ff00,
+    0 0 48px #00ff00;
 }
 
 /* ===== ОБЁРТКА ДЛЯ ИНФОБОКСА ===== */
@@ -181,7 +207,7 @@ body {
   max-width: 95% !important;
   padding: 0 !important;
 }
- 
+
 /* Глобально: padding и border входят в width */
 .VPDoc .container,
 .VPDoc .container *,
@@ -248,4 +274,26 @@ ul li::marker {
 .vp-doc ol,
 .vp-doc div:not(.table-of-contents) {
   clear: none !important;
+}
+
+/* ================================================================
+   ТЁМНАЯ ТЕМА — БЕЛЫЙ ТЕКСТ НА МОБИЛЬНЫХ
+   ================================================================ */
+
+.dark {
+  --vp-c-text-1: #ffffff !important;
+  --vp-c-text-2: #ffffff !important;
+  --vp-c-text-3: #ffffff !important;
+}
+
+.dark .vp-doc,
+.dark .vp-doc p,
+.dark .vp-doc li,
+.dark .vp-doc td,
+.dark .vp-doc th,
+.dark .vp-doc h1,
+.dark .vp-doc h2,
+.dark .vp-doc h3,
+.dark .vp-doc h4 {
+  color: #ffffff !important;
 }
