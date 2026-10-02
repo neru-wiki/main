@@ -69,6 +69,14 @@ body {
     0 0 48px #00ff00;
 }
 
+/* Красное свечение на СВЕТЛОЙ теме — более нежное */
+html:not(.dark) .vp-doc h1.destroyed {
+  text-shadow:
+    0 0 8px #FF8888,
+    0 0 16px #FF8888,
+    0 0 32px #FF6666,
+    0 0 48px #FF6666;
+}
 /* ===== ОБЁРТКА ДЛЯ ИНФОБОКСА ===== */
 
 .infobox {
@@ -275,17 +283,26 @@ ul li::marker {
 .vp-doc div:not(.table-of-contents) {
   clear: none !important;
 }
+/* ===== ЦВЕТ ТЕКСТА ===== */
 
-/* ================================================================
-   ТЁМНАЯ ТЕМА — БЕЛЫЙ ТЕКСТ НА МОБИЛЬНЫХ
-   ================================================================ */
-
-.dark {
-  --vp-c-text-1: #ffffff !important;
-  --vp-c-text-2: #ffffff !important;
-  --vp-c-text-3: #ffffff !important;
+/* Светлая тема — чёрный */
+html:not(.dark) body,
+html:not(.dark) .vp-doc,
+html:not(.dark) .vp-doc p,
+html:not(.dark) .vp-doc li,
+html:not(.dark) .vp-doc td,
+html:not(.dark) .vp-doc th,
+html:not(.dark) .vp-doc h1,
+html:not(.dark) .vp-doc h2,
+html:not(.dark) .vp-doc h3,
+html:not(.dark) .vp-doc h4,
+html:not(.dark) .container,
+html:not(.dark) .container * {
+  color: #000000 !important;
 }
 
+/* Тёмная тема — белый */
+.dark body,
 .dark .vp-doc,
 .dark .vp-doc p,
 .dark .vp-doc li,
@@ -294,6 +311,28 @@ ul li::marker {
 .dark .vp-doc h1,
 .dark .vp-doc h2,
 .dark .vp-doc h3,
-.dark .vp-doc h4 {
+.dark .vp-doc h4,
+.dark .container,
+.dark .container * {
   color: #ffffff !important;
+}
+
+/* ===== ЦВЕТ ССЫЛОК ===== */
+
+/* Светлая тема — тёмно-синий */
+html:not(.dark) .vp-doc a {
+  color: #002266 !important;
+}
+
+html:not(.dark) .vp-doc a:hover {
+  color: #224488 !important;
+}
+
+/* Тёмная тема — ярко-голубой */
+.dark .vp-doc a {
+  color: #00ddff !important;
+}
+
+.dark .vp-doc a:hover {
+  color: #00bbdd !important;
 }
