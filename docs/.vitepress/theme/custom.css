@@ -310,6 +310,52 @@ html:not(.dark) .vp-doc a:hover {
   color: #00ddff !important;
 }
 
+/* ===== ГАЛЕРЕЯ ===== */
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.gallery img {
+  width: 100%;
+  height: 200px;
+  object-fit: cover;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: transform 0.2s;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.dark .gallery img {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.gallery img:hover {
+  transform: scale(1.04);
+}
+
+@media (max-width: 768px) {
+  .gallery {
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
+  }
+  .gallery img {
+    height: 140px;
+  }
+}
+.gallery figure {
+  margin: 0;
+}
+
+.gallery figcaption {
+  font-size: 13px;
+  text-align: center;
+  margin-top: 6px;
+  opacity: 0.7;
+}
 /* Фото над таблицей в инфобоксе */
 .infobox-photo {
   width: 100%;
