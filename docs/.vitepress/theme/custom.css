@@ -52,7 +52,8 @@ body {
 /* ===== НЕОНОВОЕ СВЕЧЕНИЕ ПОД ЗАГОЛОВКОМ ===== */
 
 /* Красное свечение — снесённые дома */
-.vp-doc h1.destroyed {
+.destroyed .vp-doc h1 {
+  text-align: center;
   text-shadow:
     0 0 8px #ff2222,
     0 0 16px #ff2222,
@@ -61,7 +62,7 @@ body {
 }
 
 /* Жёлтое свечение — неподтверждённые дома */
-.vp-doc h1.idk {
+.idk .vp-doc h1 {
   text-shadow:
     0 0 8px #ffff22,
     0 0 16px #ffff22,
@@ -70,7 +71,7 @@ body {
 }
 
 /* Зелёное свечение — сохранившиеся дома */
-.vp-doc h1.alive {
+.alive .vp-doc h1 {
   text-shadow:
     0 0 8px #22ff22,
     0 0 16px #22ff22,
@@ -79,7 +80,7 @@ body {
 }
 
 /* Красное свечение на СВЕТЛОЙ теме — более нежное */
-html:not(.dark) .vp-doc h1.destroyed {
+html:not(.dark) .destroyed .vp-doc h1 {
   text-shadow:
     0 0 8px #FF8888,
     0 0 16px #FF8888,
