@@ -310,6 +310,22 @@ html:not(.dark) .vp-doc a:hover {
   color: #00ddff !important;
 }
 
+/* Фото над таблицей в инфобоксе */
+.infobox-photo {
+  width: 100%;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 8px;
+  display: block;
+  margin-bottom: 8px;
+  border: 1px solid rgba(0, 0, 0, 0.15);
+  box-sizing: border-box;
+}
+
+.dark .infobox-photo {
+  border: 1px solid rgba(255, 255, 255, 0.15);
+}
+
 .dark .vp-doc a:hover {
   color: #0088bb !important;
 }
