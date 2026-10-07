@@ -115,6 +115,26 @@ html:not(.dark) .destroyed .vp-doc h1 {
   box-sizing: border-box;
 }
 
+/* ===== ЦВЕТА ЯЧЕЕК В ТАБЛИЦАХ ИНФОБОКСА ===== */
+
+/* Светлая тема */
+html:not(.dark) .infobox table tr:nth-child(odd) td {
+  background: #FFFFFF;
+}
+
+html:not(.dark) .infobox table tr:nth-child(even) td {
+  background: #EEEEFF;
+}
+
+/* Тёмная тема */
+.dark .infobox table tr:nth-child(odd) td {
+  background: #000000;
+}
+
+.dark .infobox table tr:nth-child(even) td {
+  background: #000011;
+}
+
 /* ===== ГАЛЕРЕЯ ===== */
 
 .VPDoc .container img {
@@ -127,8 +147,9 @@ html:not(.dark) .destroyed .vp-doc h1 {
 
 .VPDoc .container .table-of-contents {
   width: fit-content;
+  height: fit-content;
   max-width: 500px;
-  max-height: 500px;
+  max-height: 250px;
   margin: 20px 0;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
