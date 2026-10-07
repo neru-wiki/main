@@ -127,7 +127,8 @@ html:not(.dark) .destroyed .vp-doc h1 {
 
 .VPDoc .container .table-of-contents {
   width: fit-content;
-  max-width: 400px;
+  max-width: 500px;
+  max-height: 500px;
   margin: 20px 0;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
@@ -136,15 +137,15 @@ html:not(.dark) .destroyed .vp-doc h1 {
 }
 
 .dark .VPDoc .container .table-of-contents {
-  background: rgba(20, 30, 60, 0.5);
+  background: rgba(0, 0, 32, 0.5);
   border-left: 3px solid rgba(100, 150, 255, 0.8);
 }
 
 .VPDoc .container .table-of-contents::before {
-  content: 'Содержание';
+  content: '📝 Содержание';
   display: block;
   font-weight: bold;
-  font-size: 16px;
+  font-size: 20px;
   margin-bottom: 12px;
   color: inherit;
 }
