@@ -10,7 +10,7 @@ pageClass: base
 ## **Основной город**
 
 <div class="buildings-grid">
-  <a href="/streets/01" class="wide">Чурапчинская</a>
+  <a href="/main/streets/01" class="wide">Чурапчинская</a>
 </div>
 
 ---
