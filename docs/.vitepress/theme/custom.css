@@ -51,7 +51,7 @@ body {
 
 /* ===== НЕОНОВОЕ СВЕЧЕНИЕ ПОД ЗАГОЛОВКОМ ===== */
 
-/* Красное свечение — снесённые дома */
+/* Красное свечение — снесённые */
 .destroyed .vp-doc h1 {
   text-align: center;
   text-shadow:
@@ -61,7 +61,7 @@ body {
     0 0 48px #ff0000;
 }
 
-/* Жёлтое свечение — неподтверждённые дома */
+/* Жёлтое свечение — неподтверждённые */
 .idk .vp-doc h1 {
   text-shadow:
     0 0 8px #ffff22,
@@ -70,7 +70,7 @@ body {
     0 0 48px #ffff00;
 }
 
-/* Зелёное свечение — сохранившиеся дома */
+/* Зелёное свечение — сохранившиеся */
 .alive .vp-doc h1 {
   text-shadow:
     0 0 8px #22ff22,
@@ -79,7 +79,16 @@ body {
     0 0 48px #00ff00;
 }
 
-/* Красное свечение на СВЕТЛОЙ теме — более нежное */
+/* Синее свечение - база */
+.base .vp-doc h1 {
+  text-shadow:
+    0 0 8px #2222ff,
+    0 0 16px #2222ff,
+    0 0 32px #0000ff,
+    0 0 48px #0000ff;
+}
+
+/* Красное свечение на СВЕТЛОЙ теме */
 html:not(.dark) .destroyed .vp-doc h1 {
   text-shadow:
     0 0 8px #FF8888,
@@ -413,7 +422,7 @@ html:not(.dark) .vp-doc a:hover {
   flex: 0 0 auto;
   min-width: 90px;
   padding: 10px 12px;
-  background: rgba(240, 240, 255, 0);
+  background: rgba(240, 240, 255, 1);
   border-radius: 8px;
   text-align: center;
   font-size: 24px;
@@ -426,12 +435,12 @@ html:not(.dark) .vp-doc a:hover {
 }
 
 .dark .buildings-grid a {
-  background: rgba(0, 0, 60, 0);
+  background: rgba(0, 0, 15, 1);
   border: 1px solid rgba(255, 255, 255, 0.15);
 }
 
 .buildings-grid a:hover {
-  background: rgba(100, 150, 255, 0);
+  background: rgba(150, 200, 255, 1);
   transform: scale(1.04);
 }
 
