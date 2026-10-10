@@ -434,6 +434,12 @@ html:not(.dark) .vp-doc a:hover {
   box-sizing: border-box;
 }
 
+/* Широкие кнопки */
+.buildings-grid a.wide {
+  min-width: 270px;
+  font-size: 24px;
+}
+
 .dark .buildings-grid a {
   background: rgba(0, 0, 15, 1);
   border: 1px solid rgba(255, 255, 255, 0.15);
@@ -449,5 +455,10 @@ html:not(.dark) .vp-doc a:hover {
     min-width: 70px;
     padding: 8px 10px;
     font-size: 18px;
+  }
+  
+  .buildings-grid a.wide {
+    min-width: 100%;
+    font-size: 16px;
   }
 }
