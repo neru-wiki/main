@@ -17,4 +17,7 @@ export default defineConfig({
     },
     outline: false
   }
+  head: [
+    ['meta', { name: 'theme-color', content: '#88ffff' }]
+  ]
 })
