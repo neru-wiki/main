@@ -22,14 +22,14 @@ body {
 /* ===== СТЕКЛЯННАЯ РАМКА — СВЕТЛАЯ ТЕМА ===== */
 
 .VPDoc .container {
-  background: rgba(200, 232, 255, 0.7);
+  background: rgba(200, 228, 255, 0.7);
   backdrop-filter: blur(12px);
   -webkit-backdrop-filter: blur(12px);
   border-radius: 16px;
   padding: 32px;
   margin: 24px auto;
   max-width: 1500px;
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.2);
   color: #000;
   overflow: hidden;
   box-sizing: border-box;
@@ -39,7 +39,7 @@ body {
 
 .dark .VPDoc .container {
   background: rgba(8, 24, 72, 0.7);
-  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.5);
+  box-shadow: 0 8px 32px rgba(0, 0, 0, 0.6);
   color: #fff;
 }
 
@@ -324,6 +324,22 @@ ul li::marker {
 .vp-doc ol,
 .vp-doc div:not(.table-of-contents) {
   clear: none !important;
+}
+
+/* ===== ВОСПОМИНАНИЯ (цитата) ===== */
+
+.VPDoc blockquote.mem {
+  position: relative;
+  margin: 20px 0;
+  padding: 16px 20px 16px 24px;
+  background: rgba(255, 255, 255, 0.5);
+  border-radius: 0 8px 8px 0;
+  font-style: italic;
+  color: inherit;
+}
+
+.dark .VPDoc blockquote.mem {
+  background: rgba(0, 0, 32, 0.5);
 }
 
 /* ===== ЦВЕТ ССЫЛОК ===== */
