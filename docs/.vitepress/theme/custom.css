@@ -330,7 +330,8 @@ ul li::marker {
 
 .VPDoc blockquote.mem {
   position: relative;
-  margin: 20px 0;
+  width: 85%;
+  margin: 20px auto;
   padding: 20px 24px;
   background: rgba(255, 255, 255, 0.5);
   border-left: none;
@@ -350,6 +351,7 @@ ul li::marker {
   font-size: 13px;
   font-style: normal;
   opacity: 0.7;
+  text-align: right;
 }
 
 /* ===== ЦВЕТ ССЫЛОК ===== */
@@ -363,9 +365,9 @@ html:not(.dark) .vp-doc a:hover {
   color: #6666ff !important;
 }
 
-/* Тёмная тема — ярко-голубой */
+/* Тёмная тема — голубой */
 .dark .vp-doc a {
-  color: #00ddff !important;
+  color: #00ffff !important;
 }
 
 /* ===== ГАЛЕРЕЯ ===== */
