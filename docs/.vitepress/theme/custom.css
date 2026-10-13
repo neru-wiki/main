@@ -507,3 +507,20 @@ html:not(.dark) .vp-doc a:hover {
     font-size: 10px !important;
   }
 }
+
+@media (max-width: 768px) {
+  html body .VPDoc .container .infobox table,
+  html body .VPDoc .container .infobox table td,
+  html body .VPDoc .container .infobox table th {
+    font-size: 10px !important;
+  }
+
+  html body .VPDoc blockquote.mem {
+    font-size: 12px !important;
+    line-height: 1.3 !important;
+  }
+
+  html body .VPDoc blockquote.mem cite {
+    font-size: 10px !important;
+  }
+}
