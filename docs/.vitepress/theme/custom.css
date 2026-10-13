@@ -234,7 +234,7 @@ html:not(.dark) .infobox table tr:nth-child(even) td {
   }
 
   .infobox table {
-    font-size: 14px;
+    font-size: 12px;
   }
 }
 
@@ -326,7 +326,7 @@ ul li::marker {
   clear: none !important;
 }
 
-/* ===== ВОСПОМИНАНИЯ (цитата) ===== */
+/* ===== ВОСПОМИНАНИЯ ===== */
 
 .VPDoc blockquote.mem {
   position: relative;
@@ -352,6 +352,19 @@ ul li::marker {
   font-style: normal;
   opacity: 0.7;
   text-align: right !important;
+}
+
+@media (max-width: 768px) {
+  .VPDoc blockquote.mem {
+    width: 100%;
+    padding: 14px 16px;
+    font-size: 14px;
+    line-height: 1.5;
+  }
+
+  .VPDoc blockquote.mem cite {
+    font-size: 12px;
+  }
 }
 
 /* ===== ЦВЕТ ССЫЛОК ===== */
@@ -457,7 +470,7 @@ html:not(.dark) .vp-doc a:hover {
   font-weight: 600;
   text-decoration: none;
   color: inherit;
-  border: 1px solid rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(0, 0, 255, 0.5);
   transition: all 0.2s;
   box-sizing: border-box;
 }
@@ -470,12 +483,16 @@ html:not(.dark) .vp-doc a:hover {
 
 .dark .buildings-grid a {
   background: rgba(0, 0, 15, 1);
-  border: 1px solid rgba(255, 255, 255, 0.15);
+  border: 1px solid rgba(0, 255, 255, 0.5);
 }
 
 .buildings-grid a:hover {
   background: rgba(150, 200, 255, 1);
   transform: scale(1.04);
+}
+
+.dark .buildings-grid a:hover {
+  background: rgba(0, 50, 100, 1);
 }
 
 @media (max-width: 768px) {
