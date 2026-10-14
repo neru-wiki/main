@@ -51,7 +51,7 @@ body {
 
 /* ===== НЕОНОВОЕ СВЕЧЕНИЕ ПОД ЗАГОЛОВКОМ ===== */
 
-/* Красное свечение — снесённые */
+/* Красное свечение — павшие */
 .destroyed .vp-doc h1 {
   text-align: center;
   text-shadow:
@@ -61,8 +61,8 @@ body {
     0 0 48px #ff0000;
 }
 
-/* Жёлтое свечение — неподтверждённые */
-.idk .vp-doc h1 {
+/* Жёлтое свечение — нежилые */
+.com .vp-doc h1 {
   text-shadow:
     0 0 8px #ffff22,
     0 0 16px #ffff22,
@@ -70,7 +70,7 @@ body {
     0 0 48px #ffff00;
 }
 
-/* Зелёное свечение — сохранившиеся */
+/* Зелёное свечение — жилые */
 .alive .vp-doc h1 {
   text-shadow:
     0 0 8px #22ff22,
@@ -451,7 +451,7 @@ html:not(.dark) .vp-doc a:hover {
 
 .VPDoc blockquote.mem {
   position: relative;
-  width: 85%;
+  width: 100%;
   margin: 20px auto;
   padding: 20px 24px;
   background: rgba(255, 255, 255, 0.5);
