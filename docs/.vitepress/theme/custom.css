@@ -502,7 +502,7 @@ html:not(.dark) .vp-doc a:hover {
   }
 
   .infobox table {
-    font-size: 11px !important;
+    font-size: 10px !important;
   }
 }
 
@@ -510,7 +510,8 @@ html:not(.dark) .vp-doc a:hover {
   html body .VPDoc .container .infobox table,
   html body .VPDoc .container .infobox table td,
   html body .VPDoc .container .infobox table th {
-    font-size: 11px !important;
+    font-size: 10px !important;
+    line-height: 1.3 !important;
   }
 
   html body .VPDoc blockquote.mem,
