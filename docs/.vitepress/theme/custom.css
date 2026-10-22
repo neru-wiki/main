@@ -155,8 +155,8 @@ html:not(.dark) .infobox table tr:nth-child(even) td {
 /* ===== ОГЛАВЛЕНИЕ [[toc]] ===== */
 
 .VPDoc .container .table-of-contents {
-  max-width: 500px;
-  max-height: 250px;
+  min-width: 250px;
+  min-height: 200px;
   margin: 20px 0;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
@@ -170,7 +170,7 @@ html:not(.dark) .infobox table tr:nth-child(even) td {
 }
 
 .VPDoc .container .table-of-contents::before {
-  content: '📝 Содержание';
+  content: '📜 Содержание';
   display: block;
   font-weight: bold;
   font-size: 20px;
@@ -524,3 +524,12 @@ html:not(.dark) .vp-doc a:hover {
     font-size: 11px !important;
   }
 }
+
+/* ЗАПРЕТИТЬ ПОЛОСКИ */
+h2 { border-top: none !important; }
+h2 + h2 { margin-top: 0 !important; }
+hr { 
+  border: none !important;
+  display: none !important;
+}
+.vp-doc hr { display: none !important; }
