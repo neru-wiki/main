@@ -7,7 +7,7 @@ pageClass: base
 
 **МДЗ-2** - второй микрорайон деревянной застройки города Нерюнгри. Граничит слева с кварталом Л, справа - с МДЗ-3, сверху - с МДЗ-1.
 
-## **Жилые дома**
+### **Жилые дома**
 <div class="buildings-grid">
   <a href="/main/01/013" class="wide">Чурапчинская 1/3</a>
   <a href="/main/01/030" class="wide">Чурапчинская 3</a>
@@ -22,10 +22,20 @@ pageClass: base
   <a href="/main/01/132" class="wide">Чурапчинская 13/2</a>
   <a href="/main/01/133" class="wide">Чурапчинская 13/3</a>
   <a href="/main/01/150" class="wide">Чурапчинская 15</a>
-  <a href="/main/01/150" class="wide">Чурапчинская 15/1</a>
+  <a href="/main/01/151" class="wide">Чурапчинская 15/1</a>
+  <a href="/main/01/171" class="wide">Чурапчинская 17/1</a>
+  <a href="/main/01/190" class="wide">Чурапчинская 19</a>
+  <a href="/main/01/191" class="wide">Чурапчинская 19/1</a>
+  <a href="/main/01/231" class="wide">Чурапчинская 23/1</a>
+  <a href="/main/01/250" class="wide">Чурапчинская 25</a>
 </div>
 
-## **Исчезнувший слой**
+### **Спорт и Медицина**
+<div class="buildings-grid">
+  <a href="/main/01/170" class="wide">МДЦ "Белая Роза"</a>
+</div>
+
+### **Исчезнувший слой**
 <div class="buildings-grid">
   <a href="/main/01/010" class="wide">Чурапчинская 1</a>
   <a href="/main/01/011" class="wide">Чурапчинская 1/1</a>
@@ -47,6 +57,10 @@ pageClass: base
   <a href="/main/01/120" class="wide">Чурапчинская 12</a>
   <a href="/main/01/121" class="wide">Чурапчинская 12/1</a>
   <a href="/main/01/152" class="wide">Чурапчинская 15/2</a>
+  <a href="/main/01/172" class="wide">Чурапчинская 17/2</a>
+  <a href="/main/01/210" class="wide">Чурапчинская 21</a>
+  <a href="/main/01/211" class="wide">Чурапчинская 21/1</a>
+  <a href="/main/01/230" class="wide">Чурапчинская 23</a>
 </div>
 
 ## **Описание**
@@ -75,5 +89,7 @@ pageClass: base
 ## **Правки пользователей**
 *Статья ждёт первую правку...*
 
+[✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/Y.md)
+
 ---
-##### Последнее обновление: 20 октября 2026.
+##### Последнее обновление: <br>23 октября 2026. <br>Автор: Neru Wiki.
