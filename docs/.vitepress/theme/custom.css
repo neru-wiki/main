@@ -155,8 +155,8 @@ html:not(.dark) .infobox table tr:nth-child(even) td {
 /* ===== ОГЛАВЛЕНИЕ [[toc]] ===== */
 
 .VPDoc .container .table-of-contents {
-  min-width: 250px;
-  min-height: 200px;
+  max-width: 300px;
+  max-height: 250px;
   margin: 20px 0;
   background: rgba(255, 255, 255, 0.5);
   border-radius: 8px;
