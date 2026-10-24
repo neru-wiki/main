@@ -12,10 +12,28 @@ pageClass: base
 <div class="buildings-grid">
   <a href="/main/01/190" class="wide">Чурапчинская 19</a>
   <a href="/main/01/191" class="wide">Чурапчинская 19/1</a>
+  <a href="/main/01/231" class="wide">Чурапчинская 23/1</a>
+  <a href="/main/01/250" class="wide">Чурапчинская 25</a>
+</div>
+
+### **Инстанции**
+<div class="buildings-grid">
+  <a href="/main/01/270" class="wide">Ветлаборатория</a>
+</div>
+
+### **Исчезнувший слой**
+<div class="buildings-grid">
   <a href="/main/01/210" class="wide">Чурапчинская 21</a>
   <a href="/main/01/211" class="wide">Чурапчинская 21/1</a>
   <a href="/main/01/220" class="wide">Чурапчинская 22</a>
+  <a href="/main/01/230" class="wide">Чурапчинская 23</a>
   <a href="/main/01/240" class="wide">Чурапчинская 24</a>
+  <a href="/main/01/290" class="wide">Чурапчинская 29</a>
+</div>
+
+### **Прочее**
+<div class="buildings-grid">
+  <a href="/main/01/310" class="wide">Чурапчинская 31</a>
 </div>
 
 ## **Описание**
@@ -40,5 +58,7 @@ pageClass: base
 ## **Правки пользователей**
 *Статья ждёт первую правку...*
 
+[✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/Z.md)
+
 ---
-##### Последнее обновление: <br>22 октября 2026.
+##### Последнее обновление: <br>24 октября 2026. <br>Автор: Neru Wiki.
