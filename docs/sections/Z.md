@@ -28,6 +28,14 @@ pageClass: base
   <a href="/main/01/220" class="wide">Чурапчинская 22</a>
   <a href="/main/01/230" class="wide">Чурапчинская 23</a>
   <a href="/main/01/240" class="wide">Чурапчинская 24</a>
+  <a href="/main/01/241" class="wide">Чурапчинская 24/1</a>
+  <a href="/main/01/242" class="wide">Чурапчинская 24/2</a>
+  <a href="/main/01/243" class="wide">Чурапчинская 24/3</a>
+  <a href="/main/01/260" class="wide">Чурапчинская 26</a>
+  <a href="/main/01/261" class="wide">Чурапчинская 26/1</a>
+  <a href="/main/01/262" class="wide">Чурапчинская 26/2</a>
+  <a href="/main/01/280" class="wide">Чурапчинская 28</a>
+  <a href="/main/01/281" class="wide">Чурапчинская 28/1</a>
   <a href="/main/01/290" class="wide">Чурапчинская 29</a>
 </div>
 
@@ -61,4 +69,4 @@ pageClass: base
 [✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/Z.md)
 
 ---
-##### Последнее обновление: <br>24 октября 2026. <br>Автор: Neru Wiki.
+##### Последнее обновление: <br>27 октября 2026. <br>Автор: Neru Wiki.
