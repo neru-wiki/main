@@ -12,6 +12,7 @@ pageClass: base
   <a href="/main/01/013" class="wide">Чурапчинская 1/3</a>
   <a href="/main/01/030" class="wide">Чурапчинская 3</a>
   <a href="/main/01/032" class="wide">Чурапчинская 3/2</a>
+  <a href="/main/01/070" class="wide">Чурапчинская 7</a>
   <a href="/main/01/072" class="wide">Чурапчинская 7/2</a>
   <a href="/main/01/074" class="wide">Чурапчинская 7/4</a>
   <a href="/main/01/092" class="wide">Чурапчинская 9/2</a>
@@ -28,6 +29,16 @@ pageClass: base
   <a href="/main/01/191" class="wide">Чурапчинская 19/1</a>
   <a href="/main/01/231" class="wide">Чурапчинская 23/1</a>
   <a href="/main/01/250" class="wide">Чурапчинская 25</a>
+</div>
+
+### **Торговля и Общепит**
+<div class="buildings-grid">
+  <a href="/main/01/180" class="wide">ТЦ "Стинол"</a>
+</div>
+
+### **Инстанции**
+<div class="buildings-grid">
+  <a href="/main/01/270" class="wide">Ветклиника</a>
 </div>
 
 ### **Спорт и Медицина**
@@ -49,6 +60,7 @@ pageClass: base
   <a href="/main/01/071" class="wide">Чурапчинская 7/1</a>
   <a href="/main/01/073" class="wide">Чурапчинская 7/3</a>
   <a href="/main/01/080" class="wide">Чурапчинская 8</a>
+  <a href="/main/01/081" class="wide">Чурапчинская 8/1</a>
   <a href="/main/01/090" class="wide">Чурапчинская 9</a>
   <a href="/main/01/091" class="wide">Чурапчинская 9/1</a>
   <a href="/main/01/100" class="wide">Чурапчинская 10</a>
@@ -56,11 +68,19 @@ pageClass: base
   <a href="/main/01/110" class="wide">Чурапчинская 11</a>
   <a href="/main/01/120" class="wide">Чурапчинская 12</a>
   <a href="/main/01/121" class="wide">Чурапчинская 12/1</a>
+  <a href="/main/01/140" class="wide">Чурапчинская 14</a>
+  <a href="/main/01/141" class="wide">Чурапчинская 14/1</a>
   <a href="/main/01/152" class="wide">Чурапчинская 15/2</a>
   <a href="/main/01/172" class="wide">Чурапчинская 17/2</a>
   <a href="/main/01/210" class="wide">Чурапчинская 21</a>
   <a href="/main/01/211" class="wide">Чурапчинская 21/1</a>
   <a href="/main/01/230" class="wide">Чурапчинская 23</a>
+  <a href="/main/01/290" class="wide">Чурапчинская 29</a>
+</div>
+
+### **Прочее**
+<div class="buildings-grid">
+  <a href="/main/01/310" class="wide">Чурапчинская 31</a>
 </div>
 
 ## **Описание**
@@ -84,7 +104,7 @@ pageClass: base
 Сейчас здесь строится три новых дома около Чурапчинской 8/1. 
 
 ## **Галерея**
-*(фото будут добавлены позже)*
+*Фото будут добавлены позже...*
 
 ## **Правки пользователей**
 *Статья ждёт первую правку...*
@@ -92,4 +112,4 @@ pageClass: base
 [✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/Y.md)
 
 ---
-##### Последнее обновление: <br>23 октября 2026. <br>Автор: Neru Wiki.
+##### Последнее обновление: <br>29 октября 2026. <br>Автор: Neru Wiki.
