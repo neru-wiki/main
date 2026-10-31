@@ -1,5 +1,5 @@
 ---
-title: Улицы и Проспекты
+title: Улицы
 pageClass: base
 ---
 
@@ -11,7 +11,8 @@ pageClass: base
 
 <div class="buildings-grid">
   <a href="/main/streets/01" class="wide">Чурапчинская</a>
+  <a href="/main/streets/02" class="wide">Южно-Якутская</a>
 </div>
 
 ---
-##### Последнее обновление: 11 октября 2026.
+##### Последнее обновление: 1 ноября 2026.
