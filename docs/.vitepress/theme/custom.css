@@ -407,7 +407,7 @@ html:not(.dark) .vp-doc a:hover {
 
 .buildings-grid a {
   flex: 0 0 auto;
-  min-width: 100px;
+  min-width: 96px;
   padding: 10px 12px;
   background: rgba(240, 240, 255, 1);
   border-radius: 8px;
