@@ -79,6 +79,15 @@ body {
     0 0 48px #00ff00;
 }
 
+/* Серое свечение - пустышка */
+.dead .vp-doc h1 {
+  text-shadow:
+    0 0 8px #888888,
+    0 0 16px #888888,
+    0 0 32px #666666,
+    0 0 48px #666666;
+}
+
 /* Голубое свечение - база */
 .base .vp-doc h1 {
   text-shadow:
@@ -387,7 +396,7 @@ html:not(.dark) .vp-doc a:hover {
   color: #0088bb !important;
 }
 
-/* ===== СЕТКА ССЫЛОК ===== */
+/* ===== СЕТКА КНОПОК ===== */
 
 .buildings-grid {
   display: flex;
@@ -398,7 +407,7 @@ html:not(.dark) .vp-doc a:hover {
 
 .buildings-grid a {
   flex: 0 0 auto;
-  min-width: 90px;
+  min-width: 100px;
   padding: 10px 12px;
   background: rgba(240, 240, 255, 1);
   border-radius: 8px;
@@ -414,7 +423,7 @@ html:not(.dark) .vp-doc a:hover {
 
 /* Широкие кнопки */
 .buildings-grid a.wide {
-  min-width: 270px;
+  min-width: 300px;
   font-size: 24px;
 }
 
