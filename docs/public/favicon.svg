@@ -1,7 +1,7 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32">
   <!-- Звездочка -->
-  <text x="-2" y="16" font-family="Arial, sans-serif" font-size="20" font-weight="900" fill="#FF8800" stroke="#FFFF00" stroke-width="0.2">✱</text>
+  <text x="-2" y="14" font-family="Arial, sans-serif" font-size="20" font-weight="900" fill="#FF8800" stroke="#FFFF00" stroke-width="0.1">✱</text>
   
   <!-- Буква N -->
-  <text x="12" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#0000FF" stroke="#00FFFF" stroke-width="0.4">N</text>
+  <text x="12" y="28" font-family="Arial, sans-serif" font-size="24" font-weight="900" fill="#0000FF" stroke="#FFFFFF" stroke-width="0.4">N</text>
 </svg>
