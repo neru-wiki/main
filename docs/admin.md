@@ -14,6 +14,13 @@ pageClass: base
 
 Почта: `neruwiki@internet.ru`
 
+### **Другие проекты**
+<div class="buildings-grid">
+  <a href="https://drive.google.com/file/d/1GfaoGXLPahpd_zuWOfwR7F50hxqqFVSt/view?usp=sharing" class="wide">Нерюнгри 2000</a>
+  <a href="https://drive.google.com/file/d/1TlnYSQ79o37Zni3VdSkCIHFVlPEifOGz/view?usp=drive_link" class="wide">3D-дом с Чурапчи</a>
+  <a href="https://docs.google.com/document/d/1ECdrnax77hPcHNvgaEy6ywCUl9K5NRtyRBhKjSXMumE/edit?usp=sharing" class="wide">Lost Media</a>
+</div>
+
 <blockquote class="mem">
   <p>«Я единственный автор и администратор сайта. Безусловно, я многое могу рассказать про дома родного города, но гораздо лучше, когда право на голос имеет каждый. 
     Любая, даже самая невзрачная деревяшка или панелька, для кого-то является или являлась многолетним жилищем. 
