@@ -5,6 +5,7 @@ export default {
   base: '/main/',
 
   head: [
+    ['link', { rel: 'icon', href: '/main/favicon.svg', type: 'image/svg+xml' }],
     ['meta', { name: 'keywords', content: 'Нерюнгри, история, архитектура, улицы, деревянные дома, утраченный слой, Neru Wiki, Якутия, краеведение, Neruyngri, Neryungri, деревяшки, панельки, Нюрка, СССР, архив, архивные фото, википедия, фандом, неру, нерулайф, nerulife, neruinfo, неруинфо, 3D макет, 2000, N2K, жители' }],
     ['meta', { name: 'author', content: 'Neru Wiki' }],
     ['meta', { name: 'robots', content: 'index, follow' }],
