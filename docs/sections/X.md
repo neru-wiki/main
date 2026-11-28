@@ -10,7 +10,11 @@ pageClass: base
 
 ### **Жилые дома**
 <div class="buildings-grid">
+  <a href="/main/03/417" class="wide">Геологов 41/2</a>
+  <a href="/main/03/439" class="wide">Геологов 43</a>
   <a href="/main/02/021" class="wide">Южно-Якутская 2/1</a>
+  <a href="/main/02/210" class="wide">Южно-Якутская 21</a>
+  <a href="/main/02/211" class="wide">Южно-Якутская 21/1</a>
 </div>
 
 ### **Образованиие**
@@ -23,11 +27,6 @@ pageClass: base
   <a href="/main/02/060" class="wide">Стоматология</a>
 </div>
 
-### **Прочее**
-<div class="buildings-grid">
-  <a href="/main/02/061" class="wide">Прачечная</a>
-</div>
-
 ### **Исчезнувший слой**
 <div class="buildings-grid">
   <a href="/main/03/110" class="wide">Геологов 11</a>
@@ -35,6 +34,14 @@ pageClass: base
   <a href="/main/03/150" class="wide">Геологов 15</a>
   <a href="/main/03/170" class="wide">Геологов 17</a>
   <a href="/main/03/190" class="wide">Геологов 19</a>
+  <a href="/main/03/410" class="wide">Геологов 41</a>
+  <a href="/main/03/411" class="wide">Геологов 41/1</a>
+  <a href="/main/03/412" class="wide">Геологов 41/2</a>
+  <a href="/main/03/413" class="wide">Геологов 41/3</a>
+  <a href="/main/03/430" class="wide">Геологов 43</a>
+  <a href="/main/03/431" class="wide">Геологов 43/1</a>
+  <a href="/main/03/432" class="wide">Геологов 43/2</a>
+  <a href="/main/03/450" class="wide">Геологов 45</a>
   <a href="/main/02/010" class="wide">Южно-Якутская 1</a>
   <a href="/main/02/011" class="wide">Южно-Якутская 1/1</a>
   <a href="/main/02/012" class="wide">Южно-Якутская 1/2</a>
@@ -44,7 +51,31 @@ pageClass: base
   <a href="/main/02/040" class="wide">Южно-Якутская 4</a>
   <a href="/main/02/041" class="wide">Южно-Якутская 4/1</a>
   <a href="/main/02/042" class="wide">Южно-Якутская 4/2</a>
+  <a href="/main/02/050" class="wide">Южно-Якутская 5</a>
+  <a href="/main/02/051" class="wide">Южно-Якутская 5/1</a>
+  <a href="/main/02/090" class="wide">Южно-Якутская 9</a>
+  <a href="/main/02/091" class="wide">Южно-Якутская 9/1</a>
+  <a href="/main/02/150" class="wide">Южно-Якутская 15</a>
+  <a href="/main/02/151" class="wide">Южно-Якутская 15/1</a>
+  <a href="/main/02/170" class="wide">Южно-Якутская 17</a>
+  <a href="/main/02/182" class="wide">Южно-Якутская 18/2</a>
+  <a href="/main/02/185" class="wide">Южно-Якутская 18/5</a>
+  <a href="/main/02/190" class="wide">Южно-Якутская 19</a>
+  <a href="/main/02/200" class="wide">Южно-Якутская 20</a>
+  <a href="/main/02/230" class="wide">Южно-Якутская 23</a>
 </div>
+
+<div class="buildings-grid">
+  <a href="/main/03/438" class="wide">Недострой Гео43-1</a>
+</div>
+
+### **Прочее**
+<div class="buildings-grid">
+  <a href="/main/02/061" class="wide">Прачечная</a>
+  <a href="/main/02/070" class="wide">Закрытый магазин</a>
+  <a href="/main/03/470" class="wide">Закрытая гостиница</a>
+</div>
+
 
 ## **Описание**
 В МДЗ-1 входят:  
@@ -78,4 +109,4 @@ pageClass: base
 [✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/X.md)
 
 ---
-##### Последнее обновление: <br>6 ноября 2026. <br>Автор: Neru Wiki.
+##### Последнее обновление: <br>28 ноября 2026. <br>Автор: Neru Wiki.
