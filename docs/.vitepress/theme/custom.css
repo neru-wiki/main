@@ -407,7 +407,7 @@ html:not(.dark) .vp-doc a:hover {
 
 .buildings-grid a {
   flex: 0 0 auto;
-  min-width: 96px;
+  min-width: 97px;
   padding: 10px 12px;
   background: rgba(240, 240, 255, 1);
   border-radius: 8px;
@@ -423,7 +423,7 @@ html:not(.dark) .vp-doc a:hover {
 
 /* Широкие кнопки */
 .buildings-grid a.wide {
-  min-width: 300px;
+  min-width: 309px;
   font-size: 24px;
 }
 
