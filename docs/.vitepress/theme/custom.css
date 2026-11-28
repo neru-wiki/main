@@ -423,7 +423,7 @@ html:not(.dark) .vp-doc a:hover {
 
 /* Широкие кнопки */
 .buildings-grid a.wide {
-  min-width: 309px;
+  min-width: 307px;
   font-size: 24px;
 }
 
