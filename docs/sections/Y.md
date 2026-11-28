@@ -15,6 +15,7 @@ pageClass: base
   <a href="/main/01/070" class="wide">Чурапчинская 7</a>
   <a href="/main/01/072" class="wide">Чурапчинская 7/2</a>
   <a href="/main/01/074" class="wide">Чурапчинская 7/4</a>
+  <a href="/main/01/088" class="wide">Чурапчинская 8/1</a>
   <a href="/main/01/092" class="wide">Чурапчинская 9/2</a>
   <a href="/main/01/111" class="wide">Чурапчинская 11/1</a>
   <a href="/main/01/112" class="wide">Чурапчинская 11/2</a>
@@ -34,16 +35,30 @@ pageClass: base
 ### **Торговля и Общепит**
 <div class="buildings-grid">
   <a href="/main/01/180" class="wide">ТЦ "Стинол"</a>
+  <a href="/main/01/148" class="wide">"Восток-Сервис"</a>
+  <a href="/main/01/149" class="wide">Магазин "Роса"</a>
+  <a href="/main/01/239" class="wide">Магазин "Экономыч"</a>
+</div>
+
+### **Образование**
+<div class="buildings-grid">
+  <a href="/main/01/050" class="wide">Д/с "Аленький Цветочек"</a>
+  <a href="/main/01/160" class="wide">СОШ №15</a>
 </div>
 
 ### **Инстанции**
 <div class="buildings-grid">
-  <a href="/main/01/270" class="wide">Ветклиника</a>
+  <a href="/main/01/270" class="wide">Ветлаборатория</a>
 </div>
 
 ### **Спорт и Медицина**
 <div class="buildings-grid">
   <a href="/main/01/170" class="wide">МДЦ "Белая Роза"</a>
+</div>
+
+### **Культура и Религия**
+<div class="buildings-grid">
+  <a href="/main/01/201" class="wide">Храм Победоносца</a>
 </div>
 
 ### **Исчезнувший слой**
@@ -112,4 +127,4 @@ pageClass: base
 [✏️ Редактировать эту статью на GitHub](https://github.com/neru-wiki/main/edit/main/docs/sections/Y.md)
 
 ---
-##### Последнее обновление: <br>29 октября 2026. <br>Автор: Neru Wiki.
+##### Последнее обновление: <br>28 ноября 2026. <br>Автор: Neru Wiki.
